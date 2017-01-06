@@ -1,0 +1,56 @@
+[
+	{
+		"id": "1",
+		"name":"iPhone 7 Plus, 128 GB",
+		"url":"components/main/controller/images/1.png",
+		"price":"859.99"
+	},
+	{
+		"id": "2",
+		"name":"iPad Pro, 256 GB",
+		"url":"components/main/controller/images/2.png",
+		"price":"699.99"
+	},
+	{
+		"id": "3",
+		"name":"Macbook Pro 15'",
+		"url":"components/main/controller/images/3.png",
+		"price":"1959.99"
+	},
+	{
+		"id": "4",
+		"name":"iWatch Series 2",
+		"url":"components/main/controller/images/4.png",
+		"price":"859.99"
+	},
+	{
+		"id": "5",
+		"name":"iWatch Series 1",
+		"url":"components/main/controller/images/5.png",
+		"price":"659.99"
+	},
+	{
+		"id": "6",
+		"name":"iWatch Series 2 Black",
+		"url":"components/main/controller/images/6.png",
+		"price":"859.99"
+	},
+	{
+		"id": "7",
+		"name":"iPad Pro, 128 GB",
+		"url":"components/main/controller/images/7.png",
+		"price":"559.99"
+	},
+	{
+		"id": "8",
+		"name":"iWatch Series 2 Gold",
+		"url":"components/main/controller/images/8.png",
+		"price":"859.99"
+	},
+	{
+		"id": "9",
+		"name":"iPad Pro, 256 GB",
+		"url":"components/main/controller/images/9.png",
+		"price":"859.99"
+	}
+]

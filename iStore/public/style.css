@@ -1,0 +1,44 @@
+.main {
+    padding-top: 10px;
+    padding-right: 50px;
+    /*padding-bottom: 50px;*/
+    padding-left: 50px;
+}
+.footer {
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+#left-txt {
+	float: left;
+} 
+.right-txt{
+	float: right;
+} 
+
+.nav-color {
+	background-color: #ffa726
+}
+.footer-color {
+	background-color: #ffa726
+}
+.font {
+	font-family: 'Questrial', sans-serif;
+}
+
+.price {
+	color: #ffa726;
+	/*text-align: center;*/
+}
+
+.button {
+	background-color: #000000;
+}
+ .block {
+    display: inline-block;
+    margin:80px;
+ }
+ .description {
+ 	text-align: center;
+ }
