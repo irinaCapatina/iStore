@@ -1,56 +1,65 @@
 [
 	{
 		"id": "1",
-		"name":"iPhone 7 Plus, 128 GB",
+		"name":"iPhone 7 Plus, 128GB",
 		"url":"components/main/controller/images/1.png",
+		"description": "iPhone 7 Plus dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. The brightest, most colorful iPhone display. Splash and water resistance.1 And it looks every bit as powerful as it is.", 
 		"price":"859.99"
 	},
 	{
 		"id": "2",
-		"name":"iPad Pro, 256 GB",
+		"name":"iPad Pro, 256GB",
 		"url":"components/main/controller/images/2.png",
+		"description":"iPad Pro has the most advanced Retina display we’ve ever made. The 12.9 inch screen offers 78 percent more display area than that of iPad Air 2. Under the glass lie a revamped Multi-Touch subsystem and 5.6 million brilliant pixels, making it the highest-resolution display of any iOS device. That extreme resolution, along with remarkably lifelike colors and deeper blacks, makes everything from photo editing to intense 3D games more vivid and deeply engaging.",
 		"price":"699.99"
 	},
 	{
 		"id": "3",
 		"name":"Macbook Pro 15'",
 		"url":"components/main/controller/images/3.png",
+		"description":"The MacBook Pro with Retina display is the ideal notebook for enthusiasts and professionals looking for fast performance in an incredibly compact and light design. The Force Touch trackpad, powerful Intel Core processors, high performance graphics, faster PCIe-based flash storage, outstanding battery life, and a stunning Retina display take the MacBook Pro to a whole new level of performance.",
 		"price":"1959.99"
 	},
 	{
 		"id": "4",
 		"name":"iWatch Series 2",
 		"url":"components/main/controller/images/4.png",
+		"description":"Apple Watch Series 2 is a superior sports watch that measures your workouts with detailed customizable metrics. An advanced activity tracker that shows you how often you move, exercise, and stand, and lets you share your progress. A powerful health tool that helps you be more conscious of your overall well-being, starting with your heart rate. And an all-day assistant that provides instant access to the people, apps, and information you care about most. There are cases made from aluminum and stainless steel and a full range of interchangeable bands in a variety of styles, colors, and materials. All models run watchOS 3.",
 		"price":"859.99"
 	},
 	{
 		"id": "5",
 		"name":"iWatch Series 1",
 		"url":"components/main/controller/images/5.png",
+		"description":"Durable, lightweight aluminum cases in silver, space gray, gold, and rose gold. Sport Band in a variety of colors. All the features of the original Apple Watch, plus a new dual-core processor for faster performance. All models run watchOS 3. ",
 		"price":"659.99"
 	},
 	{
 		"id": "6",
 		"name":"iWatch Series 2 Black",
 		"url":"components/main/controller/images/6.png",
+		"description":"Apple Watch Series 2 is a superior sports watch that measures your workouts with detailed customizable metrics. An advanced activity tracker that shows you how often you move, exercise, and stand, and lets you share your progress. A powerful health tool that helps you be more conscious of your overall well-being, starting with your heart rate. And an all-day assistant that provides instant access to the people, apps, and information you care about most. There are cases made from aluminum and stainless steel and a full range of interchangeable bands in a variety of styles, colors, and materials. All models run watchOS 3.",
 		"price":"859.99"
 	},
 	{
 		"id": "7",
-		"name":"iPad Pro, 128 GB",
+		"name":"iPad Pro, 128GB",
 		"url":"components/main/controller/images/7.png",
+		"description":"iPad Pro has the most advanced Retina display we’ve ever made. The 12.9 inch screen offers 78 percent more display area than that of iPad Air 2. Under the glass lie a revamped Multi-Touch subsystem and 5.6 million brilliant pixels, making it the highest-resolution display of any iOS device. That extreme resolution, along with remarkably lifelike colors and deeper blacks, makes everything from photo editing to intense 3D games more vivid and deeply engaging.",
 		"price":"559.99"
 	},
 	{
 		"id": "8",
 		"name":"iWatch Series 2 Gold",
 		"url":"components/main/controller/images/8.png",
+		"description":"Apple Watch Series 2 is a superior sports watch that measures your workouts with detailed customizable metrics. An advanced activity tracker that shows you how often you move, exercise, and stand, and lets you share your progress. A powerful health tool that helps you be more conscious of your overall well-being, starting with your heart rate. And an all-day assistant that provides instant access to the people, apps, and information you care about most. There are cases made from aluminum and stainless steel and a full range of interchangeable bands in a variety of styles, colors, and materials. All models run watchOS 3.",
 		"price":"859.99"
 	},
 	{
 		"id": "9",
-		"name":"iPad Pro, 256 GB",
+		"name":"iPad Pro, 256GB",
 		"url":"components/main/controller/images/9.png",
+		"description":"iPad Pro has the most advanced Retina display we’ve ever made. The 12.9 inch screen offers 78 percent more display area than that of iPad Air 2. Under the glass lie a revamped Multi-Touch subsystem and 5.6 million brilliant pixels, making it the highest-resolution display of any iOS device. That extreme resolution, along with remarkably lifelike colors and deeper blacks, makes everything from photo editing to intense 3D games more vivid and deeply engaging.",
 		"price":"859.99"
 	}
 ]
