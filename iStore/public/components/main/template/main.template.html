@@ -1,68 +1,12 @@
-<!-- <div ng-init="products=[
-    {
-        "id": "1",
-        "name":"iPhone 7 Plus, 128 GB",
-        "url":"components/main/controller/images/1.png",
-        "price":"859.99"
-    },
-    {
-        "id": "2",
-        "name":"iPad Pro, 256 GB",
-        "url":"components/main/controller/images/2.png",
-        "price":"699.99"
-    },
-    {
-        "id": "3",
-        "name":"Macbook Pro 15'",
-        "url":"components/main/controller/images/3.png",
-        "price":"1959.99"
-    },
-    {
-        "id": "4",
-        "name":"iWatch Series 2",
-        "url":"components/main/controller/images/4.png",
-        "price":"859.99"
-    },
-    {
-        "id": "5",
-        "name":"iWatch Series 1",
-        "url":"components/main/controller/images/5.png",
-        "price":"659.99"
-    },
-    {
-        "id": "6",
-        "name":"iWatch Series 2 Black",
-        "url":"components/main/controller/images/6.png",
-        "price":"859.99"
-    },
-    {
-        "id": "7",
-        "name":"iPad Pro, 128 GB",
-        "url":"components/main/controller/images/7.png",
-        "price":"559.99"
-    },
-    {
-        "id": "8",
-        "name":"iWatch Series 2 Gold",
-        "url":"components/main/controller/images/8.png",
-        "price":"859.99"
-    },
-    {
-        "id": "9",
-        "name":"iPad Pro, 256 GB",
-        "url":"components/main/controller/images/9.png",
-        "price":"859.99"
-    }
-]"></div> -->
 
 <ui-view></ui-view>
 <!-- navbar -->
 <div class="main font" ng-controller="ProductsController as products">
     <img src="logo.png" class="left-txt">
         <ul class="right-txt">
-            <li>Basket:<span>{{products.getAddedProducts()}}</span><i>Empty</i></li>
+            <li>Basket:<span>{{products.getProductsCount()}}</span></li>
             <br/>
-            <li>Total:{{products.price}}0</li>
+            <li>Total:{{products.total | currency: "&#36;"}}</li>
         </ul>
 
     <nav>
@@ -74,14 +18,17 @@
       </ul>
     </div>
   </nav>
-        
-    <!-- main -->
+
     <div class="block description" ng-repeat="product in products.dataB">
         <img ng-src="{{product.url}}">
         <p>{{product.name}}</p>
-        <p class="price">{{product.price | currency: "&#36"}}</p>
-        <button class="waves-effect waves-light btn button" ng-click="products.getProduct(product.id)">Viewmore</button>
-        <span>{{main.getAddedProducts()}}</span>
+        <p class="price">{{product.price | currency: "&#36;"}}</p>
+        <button class="waves-effect waves-light btn button" ng-click="products.addToBasket(product)">
+          Add to basket
+        </button><br/><br/>
+        <button class="waves-effect waves-light btn button" ng-click="products.deleteProduct(product)">
+          Remove from basket
+        </button>
     </div>
 
     <!-- footer -->
